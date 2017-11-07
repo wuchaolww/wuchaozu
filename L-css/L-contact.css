@@ -1,0 +1,199 @@
+
+.list{
+	width: 1200px;
+	margin: auto;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+.list span a{
+	font-size: 12px;
+	color: #000;
+}
+.list .ind{
+	font-size: 14px;
+}
+.list .iconfont{
+	font-size: 12px;
+	font-weight: bold;
+}
+.list .us{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ff3795;
+}
+.list .mesg{
+	width: 40px;
+	height: 2px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	overflow: hidden;
+	margin-top: 2px;
+}
+.list .mesg .xian{
+	width: 80%;
+	height: 100%;
+	background: #000;
+	float: left;
+}
+.list .mesg .dian{
+	width: 10%;
+	height: 100%;
+	background: #000;
+	border-radius: 50%;
+	float: right;
+}
+.list .mesg.one{
+	position: absolute;
+	bottom: 0px;
+	left: 95px;
+	overflow: hidden;
+}
+.content{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0px 80px;
+	box-sizing:border-box;
+}
+.content .left{
+	width: 27%;
+	overflow: hidden;
+	float: left;
+}
+.content .left p{
+	font-size: 20px;
+	color: #e70f77;
+	font-weight: 700;
+	line-height: 30px;
+}
+.content .left .dian{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #e70f77;
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+.content .left .dian.diantwo{
+	margin-left: 5px;
+}
+.content .left span{
+	display: block;
+	font-size: 12px;
+	color: #62c3bf;
+	padding-left: 5px;
+	float: left;
+}
+.content .right{
+	width: 73%;
+	height: 76px;
+	float: left;
+	position: relative;
+}
+.content .right p{
+	width: 100%;
+	height: 2px;
+	background: #e70f77;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+.contact{
+	width:1200px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0px 95px;
+	box-sizing:border-box;
+}
+.contact p{
+	text-align: center;
+	font-size: 18px;
+	color: #f7f7f7;
+	margin: 60px 0px;
+}
+.contact span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 35px;
+}
+.contact form{
+	width: 100%;
+	position: relative;
+	font-size: 0px;
+}
+.contact #one{
+	width: 48%;
+	height: 50px;
+	outline: none;
+	border: 3px solid #ffc9e3;
+	float: left;
+}
+.contact #two{
+	width: 48%;
+	height: 50px;
+	outline: none;
+	border: 3px solid #ffc9e3;
+	float: right;
+}
+.contact #three{
+	width: 100%;
+	height: 150px;
+	outline: none;
+	border: 3px solid #ffc9e3;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 20px;
+	box-sizing:border-box;
+	margin-top: 25px;
+	position: relative;
+	transition: all 0.5s;
+}
+.contact #four{
+	width: 100%;
+	height: 50px;
+	outline: none;
+	border: 3px solid #ffc9e3;
+	margin-top: 25px;
+}
+.contact .four{
+	width: 100px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 270px;
+	margin: auto;
+}
+.contact input{
+	font-size: 12px;
+	font-weight: 500;
+	padding: 10px 20px;
+	box-sizing:border-box;
+	transition: all 0.5s;
+}
+.contact #three .con{
+	width: 100px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: 500;	
+}
+.contact .imgBox{
+	width: 100%;
+	margin-top: 100px;
+	font-size: 0px;
+}
+.contact .imgBox img{
+	width: 100%;
+}
+
