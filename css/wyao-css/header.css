@@ -1,0 +1,111 @@
+
+.head{
+	width: 100%;
+	height: 96px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.logo{
+	float: left;
+	width: 250px;
+	height: 100%;
+	padding-top: 25px;
+	box-sizing:border-box;
+}
+.logo img{
+	width: 100%;
+}
+.nav{
+	float: left;
+	width: 936px;
+	display: block;
+	height: 100%;
+}
+.nav li{
+	display: block;
+	float: left;
+	width: auto;
+	height: 80%;
+	padding: 0 16px;
+	font-size: 18px;
+	font-family: Regular;
+	line-height: 110px;
+}
+.nav li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #666;
+}
+.nav li:hover a{
+	color: #ff3795;
+	border-bottom: 4px solid #ff3795;
+}
+.foot{
+	width: 100%;
+	height:369px;
+	background: #e82281;	
+	color: #fff;
+}
+.foot .left{
+	float: left;
+	width: 420px;
+	height: 60%;
+	border-right: 1px solid #666;
+	padding-top: 8px;
+	box-sizing:border-box;
+	margin-top: 84px;
+}
+.foot .right{
+	float: right;
+	width: 780px;
+	height: 60%;
+	padding-top: 8px;
+	padding-left: 78px;
+	box-sizing:border-box;
+	margin-top: 84px;
+}
+.foot .title{
+	width: 300px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.foot .title span{
+	font-weight: normal;
+}
+.foot .title .ic{
+	font-size: 18px;
+}
+
+.foot .address{
+	margin-top: 10px;
+}
+.foot .address li{
+	line-height: 25px;
+	font-size: 12px;
+}
+.foot .address li span{
+	color: #333;
+	margin-right: 18px;
+}
+.foot .zi{
+	margin-top: 30px;
+	font-size: 16px;
+}
+.foot .zi li{
+	float: left;
+	margin-right: 22px;
+}
+.foot .zi a{
+	color: #fff;
+}
+.foot img{
+	float: right;
+	margin-top: -90px;
+}
